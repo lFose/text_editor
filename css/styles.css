@@ -1,0 +1,58 @@
+@font-face{
+	font-family: "proxima nova";
+	src: url('../fonts/proxima.woff') format("woff"),
+	     url('../fonts/proxima.woff2') format("woff2"),
+	     url('../fonts/proxima.otf') format("opentype");
+	     font-weight: normal;
+	     font-style: normal;
+}
+@font-face {
+	font-family: 'Futura PT Heavy';
+	src: url(../fonts/futurapt-heavy.eot);
+	src: url(../fonts/futurapt-heavy.ttf),
+		url(../fonts/futurapt-heavy.woff);
+	font-weight: normal;
+	font-style: normal;	
+
+}
+*{
+	box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+body{
+	background:#464f54 ;
+	margin: 0;
+	padding: 0;
+	font-family: Georgia, sans-serif;
+	font-size: 2.7rem;
+	line-height: 1.5;
+}
+.article{
+	width: 90%;
+	margin: 140px auto 20px;
+	background: #fff;
+	padding: 200px 130px 130px 130px;
+}
+.author{
+	text-transform: uppercase;
+	font-family: "proxima nova";
+	font-size: 2rem;
+	color: #bababa;
+}
+.author span:not(:empty):after{
+	content: ",";
+}
+.title{
+	font-size: 7.8rem;
+	line-height: 1;
+	font-family: "Futura PT Heavy";
+	text-transform: uppercase;
+	margin: 40px 0 20px;
+}
+.subtitle{
+	font-size: 3rem;
+	color: #8f8f8f;
+	font-style: italic;
+}
